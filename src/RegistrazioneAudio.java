@@ -31,6 +31,7 @@ public class RegistrazioneAudio extends ElementoMultimediale implements Riproduc
 
 
     @Override // usando il polimorfismo , sfrutto il metodo play richiamatomi dall interfaccia.
+
     public void play() {
 
         for (int i = 0; i < durata; i++) {
