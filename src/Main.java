@@ -25,6 +25,8 @@ public class Main {
                 } catch (NumberFormatException e) {
                     System.out.println("Errore: devi inserire un numero valido.");
                 }
+
+
             }
 
             System.out.println("Inserisci il titolo: ");
