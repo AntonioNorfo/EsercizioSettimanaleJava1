@@ -12,7 +12,10 @@ public class Main {
 
             while (!inputValido) {
                 try {
-                    System.out.println("Inserisci il tipo di elemento multimediale (1 = Immagine, 2 = Audio, 3 = Video): ");
+                    System.out.println("Inserisci il tipo di elemento multimediale :");
+                    System.out.println("1)Immagine");
+                    System.out.println("2)Audio" );
+                    System.out.println("3)Video" );
                     String inputScelta = scanner.nextLine();
                     scelta = Integer.parseInt(inputScelta);
 
