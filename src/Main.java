@@ -22,7 +22,9 @@ public class Main {
 
         Video video = new Video("Film", 5, 4, 15);
 
+
         // Riproduce il video
+
         video.play();
 
         // Abbassa il volume e riproduce di nuovo
@@ -30,6 +32,7 @@ public class Main {
         video.play();
 
         // Aumenta la luminosità e riproduce di nuovo
+
         video.aumentaLuminosita();
         video.play();
 
